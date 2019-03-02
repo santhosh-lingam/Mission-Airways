@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Airways", "Airways\Airways.csproj", "{4AD98B34-D1BF-4317-864A-8ED9C01EC59A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogicLayer", "BusinessLL\BusinessLogicLayer.csproj", "{3459657A-B25C-441B-9642-EE72EA04A59B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessL\DataAccessLayer.csproj", "{4BE83DBF-C815-41BA-8235-B186154E8840}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4AD98B34-D1BF-4317-864A-8ED9C01EC59A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AD98B34-D1BF-4317-864A-8ED9C01EC59A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AD98B34-D1BF-4317-864A-8ED9C01EC59A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AD98B34-D1BF-4317-864A-8ED9C01EC59A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3459657A-B25C-441B-9642-EE72EA04A59B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3459657A-B25C-441B-9642-EE72EA04A59B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3459657A-B25C-441B-9642-EE72EA04A59B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3459657A-B25C-441B-9642-EE72EA04A59B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BE83DBF-C815-41BA-8235-B186154E8840}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BE83DBF-C815-41BA-8235-B186154E8840}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BE83DBF-C815-41BA-8235-B186154E8840}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BE83DBF-C815-41BA-8235-B186154E8840}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

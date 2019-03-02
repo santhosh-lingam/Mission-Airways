@@ -1,0 +1,66 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="EntryMatser.master.cs" Inherits="Airways.EntryMatser" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+ <head id="Head1" runat="server">
+    <title>ARS </title>
+    
+     <link href="StyleSheets/StyleSheet.css" rel="stylesheet" />
+</head>
+
+
+<body id="Entry_Body" style="background-image: url('/Images/Main BGI.jpg'); background-size: cover;">
+
+    <form id="EntryMaster" runat="server">
+
+        <table id="Entry_Header" style="border:ridge; border-color:white; border-radius:8px;">
+            <tr>
+                <td id="Entry_Title" style="font-family:Forte; line-height:40px; font-size:45px; width:1200px;">         Air Ticket Reservation System             </td>
+                <td id="Entry_Icon" style="height:100px; width:200px;  font-family:Forte; line-height:40px; font-size:45px; "> <asp:Image ID="Image1" runat="server" Height="85px" ImageUrl="~/Images/Aeroplane.png" style="margin-left: 100px" Width="187px" />              </td>
+
+            </tr>
+            
+        </table>
+        
+              <marquee behavior="scroll" direction="left" id="Entry_Updates" style="height:35px;color:whitesmoke;  border-radius:8px; border:ridge; background:rgba(255,255,255,0.5); line-height:25PX; font-size:25PX; font-family:'Brush Script MT';"> Staytune for more updates....!!!</marquee>
+            
+        
+                      
+        
+        <table style="height:472px;">
+            <tr>
+                <td>
+
+                    <marque>
+                            <p style="text-align:center; line-height:30px; font-size:20px; font-weight:bold;">Air Ticket Reservation System</p>
+                                 <p style="font-weight: bold"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Based in and was partly owned by the Government of India,
+        
+                                     AirGo Airlines is currently known as AirGo and it serves its flights for domestic routes as well as several international routes.</p> 
+    
+                                 <p style="font-weight: bold"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; On 27 February 2011, AirGo acquired stakes of AirGo airlines. For the passenger’s convenience, the airline offers daily updates of its all AirGo airlines flight schedule.
+                                     With this facility, you will always get right information about the arrival and departure timings of any particular flights.
+                                </p>  <p style="font-weight: bold">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; There is a good number of travel portals in the travel market but makemytrip.com, which is a leading travel portal, 
+                                     gives you the correct and accurate information about the flights timings. On this dedicated portal, you can even book your AirGo Airlines flights tickets as well. 
+                                     One can even check out the AirGo airlines flight schedule on the airlines official website.For booking your flight tickets, you can simply log-in to makemytrip.com and
+                                     follow some simple steps for your ticket booking. Here, you may also get some attractive offers and discounts on air tickets. 
+                                     Just make few click of your mouse and fill some information, your booking will be done in no time. Since its inception, the airline is striving to provide world class facilities to its customers.</p> <p style="font-weight:bold">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; To get any other information related to AirGo airlines booking and schedule, passengers can go to the websites or make call to its toll free numbers.
+                                     So, make your journey more comfortable and enjoyable with up to date information related to your flights. </p>
+
+                    </marque>
+                </td>
+                <td  id="LogIn" style="background:rgba(255,255,255,0.5); border:ridge; opacity:0.9; height:400px; padding-right:20px; border-radius:8px; text-align:center; width:350px; table-layout:fixed;">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+                </td>
+            </tr>
+        </table>
+        <div id="Footer" style="text-align: center; height: 15px; font-weight: bold; color: black; border-radius: 8px; border: ridge; background: rgba(255,255,255,0.5); line-height: 15px; font-size: 15PX;">Copyright &copy; AirTicket Reservation System   </div>
+        
+    </form>
+
+</body>
+
+    
+</html>

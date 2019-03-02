@@ -1,0 +1,100 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MainSite.Master.cs" Inherits="Airways.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<head runat="server">
+    <title>ARS </title>
+    <link href="StyleSheets/StyleSheet.css" rel="stylesheet" />
+    
+
+    <script type="text/javascript">
+        function preventBack() { window.history.forward(); }
+        setTimeout("preventBack()", 0);
+        window.onunload = function () { null };
+    </script>
+    <script>
+
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+
+
+    </script>
+
+</head>
+<body id="Main_Body" style="background-image: url('http://localhost:62555/Images/1.jpg'); background-size: cover;">
+    <form id="MainMaster" runat="server">
+
+        <table id="Main_Header_Table" style="border: ridge; border-color: white; border-radius: 8px;">
+            <tr>
+                <td id="Main_Header" style="font-family: Forte; line-height: 40px; font-size: 45px; width: 1200px; color: #C0C0C0;">Air Ticket Reservation System             </td>
+                <td id="Main_Icon" style="height: 100px; width: 200px; font-family: Forte; line-height: 40px; font-size: 45px; padding-right: 20px;">
+                    <asp:Image ID="Image1" runat="server" Height="85px" ImageUrl="~/Images/Aeroplane.png" Style="margin-left: 100px" Width="187px" />
+                </td>
+
+
+                <td id="Logout_DropDown" style="padding-right: 40px;">
+                    <div class="dropdown" style="border-radius: 10px;">
+                        <button onclick="myFunction()" class="dropbtn">
+                            <asp:Label ID="Label_UName" runat="server"></asp:Label>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="Profile.aspx">Profile </a>
+                            <a href="ChangePassword.aspx">Change Password </a>
+                            <a href="PrepaidWallet.aspx">Prepaid Wallet </a>
+                            <a href="Logout.aspx">Log Out </a>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <marquee behavior="scroll" direction="left" id="Main_Updates" style="height: 35px; color: black; border-radius: 8px; border: ridge; background: rgba(255,255,255,0.5); line-height: 25PX; font-size: 25PX; font-family: 'Brush Script MT';"> SpiceJet has announced a 'Happy New Year Sale', offering tickets as low as R 716 (excluding taxes). The bookings for this SpiceJet offer will remain open till midnight of December 31, 2017. This offer is applicable on SpiceJet's domestic network and covers travel period from January 15, 2018 to April 12 2018 Staytune for more updates....!!!</marquee>
+
+
+        <table id="Main_Content" style="height: 480px; width: 1340px; table-layout: fixed;">
+            <tr>
+                <td id="Main_Menu" style="height: 480px; width: 200px;">
+                    <div id="navigation" style="padding-bottom: 190px; padding-right: 80px; height: 242px; width: 110px;">
+                        <ul>
+
+                            <li><a href="Home.aspx" style="text-decoration: none; color: white;">Home </a></li>
+                            <li><a href="Search.aspx" style="text-decoration: none; color: white;">Search</a>   </li>
+                            <li><a href="Cancel.aspx" style="text-decoration: none; color: white;">Cancel </a></li>
+                            <li><a href="TripHistory.aspx" style="text-decoration: none; color: white;">Trips     </a></li>
+                            <li><a href="Contact.aspx" style="text-decoration: none; color: white;">Contact Us</a>   </li>
+                        </ul>
+                        -
+                    </div>
+                </td>
+                <td id="Main_Pages" style="height: 480px; width: 1040px; background: rgba(255,255,255,0.9); border: ridge; opacity: 0.9; padding-right: 20px; border-radius: 8px; text-align: center; table-layout: fixed;">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+                </td>
+
+            </tr>
+
+        </table>
+
+
+        <div id="Main_Footer" style="text-align: center; height: 15px; font-weight: bold; color: black; border-radius: 8px; border: ridge; background: rgba(255,255,255,0.5); line-height: 15px; font-size: 15PX;">Copyright &copy; AirTicket Reservation System   </div>
+    </form>
+</body>
+
+</html>

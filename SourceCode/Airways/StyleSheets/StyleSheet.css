@@ -1,0 +1,184 @@
+﻿#Entry_Body {
+    background-image: url('/Images/Main BGI.jpg');
+    background-size: cover;
+   
+}
+#Main_Body {
+background-image: url('http://localhost:62555/Images/1.jpg'); 
+background-size: cover;
+
+}
+
+
+#Main_Header_Table {
+    border: ridge; 
+    border-color: white; 
+    border-radius: 8px;
+
+}
+
+#Main_Header {
+    font-family: Forte; 
+    line-height: 40px; 
+    font-size: 45px; 
+    width: 1200px; 
+    color: #C0C0C0;
+}
+
+#Main_Icon {
+    height: 100px;
+    width: 200px;
+    font-family: Forte;
+    line-height: 40px; 
+    font-size: 45px; 
+    padding-right: 20px;
+}
+
+#Logout_DropDown {
+padding-right: 40px;
+}
+
+#Main_Updates {
+   height: 35px; 
+   color: black; 
+   border-radius: 8px; 
+   border: ridge; 
+   background: rgba(255,255,255,0.5); 
+   line-height: 25PX; 
+   font-size: 25PX; 
+   font-family:'Brush Script MT';
+}
+
+#Main_Content {
+    height:480px; 
+    width:1340px; 
+    table-layout:fixed; 
+}
+
+#navigation {
+  padding-bottom:190px; 
+  padding-right:80px; 
+  height: 242px; 
+  width: 110px;
+}
+
+#Main_Pages {
+height:480px; 
+width:1040px; 
+background:rgba(255,255,255,0.6); 
+border:ridge; 
+opacity:0.9;  
+padding-right:20px; 
+border-radius:8px; 
+text-align:center; 
+table-layout:fixed;
+}
+
+#Main_Footer {
+    text-align: center;
+    height: 15px; 
+    font-weight:bold; 
+    color: black; 
+    border-radius: 8px; 
+    border: ridge; 
+    background: rgba(255,255,255,0.5); 
+    line-height: 15px; 
+    font-size: 15PX;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#navigation ul {
+    list-style: none;
+}
+     
+       
+   
+#navigation ul li {
+    background-color:#0c0101;
+    width:150px;
+    border: 1px solid white;
+    height: 50px;
+    line-height: 50px;
+    text-align:center;
+    color:white;
+    font-size:18px;
+    
+}
+    #navigation ul li:hover {
+        background-color:#beb6b6;
+
+    } 
+
+#myDropdown {
+    border:1px solid black;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius:10px;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius:10px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+--------------------------------------------------------------------------------------------------------------------------
+
+
