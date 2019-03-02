@@ -13,7 +13,10 @@ Roles & Responsibilities:
 
 •	Developed UI for login page, logout page, Customer Registration module, Search Flight module, 
   Ticket Booking module, Edit Profile, Cancel Ticket module and prepaid payment module.
+
 •	Developed back end program in ASP.Net.
+
 •	Integrated whole module with database using ADO.Net and MS SQL.
+
 •	Additionally, implemented pre-paid payment module.
 
