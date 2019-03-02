@@ -1,1 +1,652 @@
 
+Message :A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)<br/>
+StackTrace :   at BALogIn.BusinessClass.LoginValidationB(String UserName, String Pass) in C:\Users\anush\Downloads\Airways (1)\Airways\BusinessLL\BALogIn.cs:line 24
+   at Airways.Login.Login_button_Click(Object sender, EventArgs e) in H:\Xpert's Zone\Mission Airways\Airways\Airways\MainPages\Login.aspx.cs:line 27
+Date :
+08-07-2017 11:31:30Source :.Net SqlClient Data Provider<br/>
+
+
+-----------------------------------------------------------------------------
+
+Message :Invalid object name 'CustomerDetails'.<br/>
+
+StackTrace :   at BALogIn.BusinessClass.LoginValidationB(String UserName, String Pass) in C:\Users\anush\Downloads\Airways (1)\Airways\BusinessLL\BALogIn.cs:line 24
+   at Airways.Login.Login_button_Click(Object sender, EventArgs e) in H:\Xpert's Zone\Mission Airways\Airways\Airways\MainPages\Login.aspx.cs:line 27
+Date :
+08-07-2017 12:13:44Source :.Net SqlClient Data Provider<br/>
+
+
+-----------------------------------------------------------------------------
+
+Message :Invalid object name 'CustomerDetails'.<br/>
+
+StackTrace :   at BALogIn.BusinessClass.LoginValidationB(String UserName, String Pass) in C:\Users\anush\Downloads\Airways (1)\Airways\BusinessLL\BALogIn.cs:line 24
+   at Airways.Login.Login_button_Click(Object sender, EventArgs e) in H:\Xpert's Zone\Mission Airways\Airways\Airways\MainPages\Login.aspx.cs:line 27
+Date :
+08-07-2017 12:18:01Source :.Net SqlClient Data Provider<br/>
+
+
+-----------------------------------------------------------------------------
+
+Message :Invalid object name 'CustomerDetails'.<br/>
+
+StackTrace :   at BALogIn.BusinessClass.LoginValidationB(String UserName, String Pass) in C:\Users\anush\Downloads\Airways (1)\Airways\BusinessLL\BALogIn.cs:line 24
+   at Airways.Login.Login_button_Click(Object sender, EventArgs e) in H:\Xpert's Zone\Mission Airways\Airways\Airways\MainPages\Login.aspx.cs:line 27
+Date :
+10-07-2017 10:45:49Source :.Net SqlClient Data Provider<br/>
+
+
+-----------------------------------------------------------------------------
+
+Message :Thread was being aborted.<br/>
+
+StackTrace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Airways.Login.Login_button_Click(Object sender, EventArgs e) in H:\Xpert's Zone\Mission Airways\Airways\Airways\MainPages\Login.aspx.cs:line 31
+Date :
+10-07-2017 23:31:47Source :mscorlib<br/>
+
+
+-----------------------------------------------------------------------------
+
+Message :Thread was being aborted.<br/>
+
+StackTrace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Airways.Login.Login_button_Click(Object sender, EventArgs e) in H:\Xpert's Zone\Mission Airways\Airways\Airways\MainPages\Login.aspx.cs:line 31
+Date :
+10-07-2017 23:36:47Source :mscorlib<br/>
+
+
+-----------------------------------------------------------------------------
+
+Message :Thread was being aborted.<br/>
+
+StackTrace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Airways.Login.Login_button_Click(Object sender, EventArgs e) in H:\Xpert's Zone\Mission Airways\Airways\Airways\MainPages\Login.aspx.cs:line 31
+Date :
+10-07-2017 23:57:27Source :mscorlib<br/>
+
+
+-----------------------------------------------------------------------------
+
+Message :Thread was being aborted.<br/>
+
+StackTrace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Airways.Login.Login_button_Click(Object sender, EventArgs e) in H:\Xpert's Zone\Mission Airways\Airways\Airways\MainPages\Login.aspx.cs:line 31
+Date :
+11-07-2017 09:47:25Source :mscorlib<br/>
+
+
+-----------------------------------------------------------------------------
+
+Message :Invalid object name 'CustomerDetails'.<br/>
+
+StackTrace :   at BALogIn.BusinessClass.LoginValidationB(String UserName, String Pass) in H:\Xpert's Zone\Mission Airways\Airways\BusinessLL\BALogIn.cs:line 24
+   at Airways.Login.Login_button_Click(Object sender, EventArgs e) in H:\Xpert's Zone\Mission Airways\Airways\Airways\MainPages\Login.aspx.cs:line 27
+Date :
+11-07-2017 09:52:15Source :.Net SqlClient Data Provider<br/>
+
+
+-----------------------------------------------------------------------------
+
+Message :Invalid object name 'CustomerDetails'.<br/>
+
+StackTrace :   at BALogIn.BusinessClass.LoginValidationB(String UserName, String Pass) in H:\Xpert's Zone\Mission Airways\Airways\BusinessLL\BALogIn.cs:line 24
+   at Airways.Login.Login_button_Click(Object sender, EventArgs e) in H:\Xpert's Zone\Mission Airways\Airways\Airways\MainPages\Login.aspx.cs:line 27
+Date :
+11-07-2017 09:52:50Source :.Net SqlClient Data Provider<br/>
+
+
+-----------------------------------------------------------------------------
+
+Message :Invalid object name 'CustomerDetails'.<br/>
+
+StackTrace :   at BALogIn.BusinessClass.LoginValidationB(String UserName, String Pass) in H:\Xpert's Zone\Mission Airways\Airways\BusinessLL\BALogIn.cs:line 24
+   at Airways.Login.Login_button_Click(Object sender, EventArgs e) in H:\Xpert's Zone\Mission Airways\Airways\Airways\MainPages\Login.aspx.cs:line 27
+Date :
+11-07-2017 09:58:45Source :.Net SqlClient Data Provider<br/>
+
+
+-----------------------------------------------------------------------------
+
+Message :Thread was being aborted.<br/>
+
+StackTrace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Airways.Login.Login_button_Click(Object sender, EventArgs e) in H:\Xpert's Zone\Mission Airways\Airways\Airways\MainPages\Login.aspx.cs:line 31
+Date :
+11-07-2017 10:00:06Source :mscorlib<br/>
+
+
+-----------------------------------------------------------------------------
+
+Message :Thread was being aborted.<br/>
+
+StackTrace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Airways.Login.Login_button_Click(Object sender, EventArgs e) in H:\Xpert's Zone\Mission Airways\Airways\Airways\MainPages\Login.aspx.cs:line 31
+Date :
+11-07-2017 10:05:22Source :mscorlib<br/>
+
+
+-----------------------------------------------------------------------------
+
+Message :Thread was being aborted.<br/>
+
+StackTrace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Airways.Login.Login_button_Click(Object sender, EventArgs e) in H:\Xpert's Zone\Mission Airways\Airways\Airways\MainPages\Login.aspx.cs:line 31
+Date :
+11-07-2017 10:06:38Source :mscorlib<br/>
+
+
+-----------------------------------------------------------------------------
+
+Message :Thread was being aborted.<br/>
+StackTrace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Airways.Search.Book_Button_Click(Object sender, EventArgs e) in H:\Xpert's Zone\Mission Airways\Airways\Airways\MainPages\Search.aspx.cs:line 223
+Date :
+11-07-2017 10:07:17Source :mscorlib<br/>
+
+
+-----------------------------------------------------------------------------
+
+Message :Thread was being aborted.<br/>
+
+StackTrace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Airways.Login.Login_button_Click(Object sender, EventArgs e) in H:\Xpert's Zone\Mission Airways\Airways\Airways\MainPages\Login.aspx.cs:line 31
+Date :
+11-07-2017 23:02:29Source :mscorlib<br/>
+
+
+-----------------------------------------------------------------------------
+
+Message :Thread was being aborted.<br/>
+
+StackTrace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Airways.Login.Login_button_Click(Object sender, EventArgs e) in H:\Xpert's Zone\Mission Airways\Airways\Airways\MainPages\Login.aspx.cs:line 31
+Date :
+11-07-2017 23:08:02Source :mscorlib<br/>
+
+
+-----------------------------------------------------------------------------
+
+Message :Thread was being aborted.<br/>
+
+StackTrace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Airways.Login.Login_button_Click(Object sender, EventArgs e) in H:\Xpert's Zone\Mission Airways\Airways\Airways\MainPages\Login.aspx.cs:line 31
+Date :
+11-07-2017 23:40:22Source :mscorlib<br/>
+
+
+-----------------------------------------------------------------------------
+
+Message :Thread was being aborted.<br/>
+StackTrace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Airways.Search.Book_Button_Click(Object sender, EventArgs e) in H:\Xpert's Zone\Mission Airways\Airways\Airways\MainPages\Search.aspx.cs:line 223
+Date :
+11-07-2017 23:44:22Source :mscorlib<br/>
+
+
+-----------------------------------------------------------------------------
+
+Message :Thread was being aborted.<br/>
+
+StackTrace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Airways.Login.Login_button_Click(Object sender, EventArgs e) in H:\Xpert's Zone\Mission Airways\Airways\Airways\MainPages\Login.aspx.cs:line 31
+Date :
+23-07-2017 16:11:24Source :mscorlib<br/>
+
+
+-----------------------------------------------------------------------------
+
+Message :Thread was being aborted.<br/>
+
+StackTrace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Airways.Login.Login_button_Click(Object sender, EventArgs e) in H:\Xpert's Zone\Mission Airways\Airways\Airways\MainPages\Login.aspx.cs:line 31
+Date :
+12-08-2017 19:48:16Source :mscorlib<br/>
+
+
+-----------------------------------------------------------------------------
+
+Message :Thread was being aborted.<br/>
+StackTrace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Airways.Search.Book_Button_Click(Object sender, EventArgs e) in H:\Xpert's Zone\Mission Airways\Airways\Airways\MainPages\Search.aspx.cs:line 223
+Date :
+12-08-2017 19:50:39Source :mscorlib<br/>
+
+
+-----------------------------------------------------------------------------
+
+Message :Thread was being aborted.<br/>
+
+StackTrace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Airways.Login.Login_button_Click(Object sender, EventArgs e) in H:\Xpert's Zone\Mission Airways\Airways\Airways\MainPages\Login.aspx.cs:line 31
+Date :
+08-12-2017 15:03:25Source :mscorlib<br/>
+
+
+-----------------------------------------------------------------------------
+
+Message :Thread was being aborted.<br/>
+
+StackTrace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Airways.Login.Login_button_Click(Object sender, EventArgs e) in H:\Xpert's Zone\Mission Airways\Airways\Airways\MainPages\Login.aspx.cs:line 31
+Date :
+08-12-2017 15:34:10Source :mscorlib<br/>
+
+
+-----------------------------------------------------------------------------
+
+Message :Thread was being aborted.<br/>
+
+StackTrace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Airways.Login.Login_button_Click(Object sender, EventArgs e) in H:\Xpert's Zone\Mission Airways\Airways\Airways\MainPages\Login.aspx.cs:line 31
+Date :
+10-02-2018 18:03:06Source :mscorlib<br/>
+
+
+-----------------------------------------------------------------------------
+
+Message :Thread was being aborted.<br/>
+
+StackTrace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Airways.Login.Login_button_Click(Object sender, EventArgs e) in H:\Xpert's Zone\Mission Airways\Airways\Airways\MainPages\Login.aspx.cs:line 31
+Date :
+10-02-2018 20:10:16Source :mscorlib<br/>
+
+
+-----------------------------------------------------------------------------
+
+Message :Thread was being aborted.<br/>
+
+StackTrace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Airways.Login.Login_button_Click(Object sender, EventArgs e) in H:\Xpert's Zone\Mission Airways\Airways\Airways\MainPages\Login.aspx.cs:line 31
+Date :
+10-02-2018 20:29:28Source :mscorlib<br/>
+
+
+-----------------------------------------------------------------------------
+
+Message :Thread was being aborted.<br/>
+StackTrace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Airways.Search.Book_Button_Click(Object sender, EventArgs e) in H:\Xpert's Zone\Mission Airways\Airways\Airways\MainPages\Search.aspx.cs:line 223
+Date :
+10-02-2018 20:29:52Source :mscorlib<br/>
+
+
+-----------------------------------------------------------------------------
+
+Message :Thread was being aborted.<br/>
+
+StackTrace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Airways.Login.Login_button_Click(Object sender, EventArgs e) in H:\Xpert's Zone\Mission Airways\Airways\Airways\MainPages\Login.aspx.cs:line 31
+Date :
+10-02-2018 20:53:32Source :mscorlib<br/>
+
+
+-----------------------------------------------------------------------------
+
+Message :Thread was being aborted.<br/>
+StackTrace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Airways.Search.Book_Button_Click(Object sender, EventArgs e) in H:\Xpert's Zone\Mission Airways\Airways\Airways\MainPages\Search.aspx.cs:line 223
+Date :
+10-02-2018 20:55:17Source :mscorlib<br/>
+
+
+-----------------------------------------------------------------------------
+
+Message :Thread was being aborted.<br/>
+
+StackTrace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Airways.Login.Login_button_Click(Object sender, EventArgs e) in H:\Xpert's Zone\Mission Airways\Airways\Airways\MainPages\Login.aspx.cs:line 31
+Date :
+10-02-2018 20:57:01Source :mscorlib<br/>
+
+
+-----------------------------------------------------------------------------
+
+Message :Thread was being aborted.<br/>
+
+StackTrace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Airways.Login.Login_button_Click(Object sender, EventArgs e) in H:\Xpert's Zone\Mission Airways\Airways\Airways\MainPages\Login.aspx.cs:line 31
+Date :
+10-02-2018 20:58:23Source :mscorlib<br/>
+
+
+-----------------------------------------------------------------------------
+
+Message :Thread was being aborted.<br/>
+StackTrace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Airways.Search.Book_Button_Click(Object sender, EventArgs e) in H:\Xpert's Zone\Mission Airways\Airways\Airways\MainPages\Search.aspx.cs:line 223
+Date :
+10-02-2018 20:59:56Source :mscorlib<br/>
+
+
+-----------------------------------------------------------------------------
+
+Message :Thread was being aborted.<br/>
+
+StackTrace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Airways.Login.Login_button_Click(Object sender, EventArgs e) in H:\Xpert's Zone\Mission Airways\Airways\Airways\MainPages\Login.aspx.cs:line 31
+Date :
+12-02-2018 15:03:52Source :mscorlib<br/>
+
+
+-----------------------------------------------------------------------------
+
+Message :Thread was being aborted.<br/>
+StackTrace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Airways.Search.Book_Button_Click(Object sender, EventArgs e) in H:\Xpert's Zone\Mission Airways\Airways\Airways\MainPages\Search.aspx.cs:line 223
+Date :
+12-02-2018 15:05:33Source :mscorlib<br/>
+
+
+-----------------------------------------------------------------------------
+
+Message :Thread was being aborted.<br/>
+StackTrace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Airways.Search.Book_Button_Click(Object sender, EventArgs e) in H:\Xpert's Zone\Mission Airways\Airways\Airways\MainPages\Search.aspx.cs:line 223
+Date :
+12-02-2018 15:07:40Source :mscorlib<br/>
+
+
+-----------------------------------------------------------------------------
+
+Message :Thread was being aborted.<br/>
+
+StackTrace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Airways.Login.Login_button_Click(Object sender, EventArgs e) in H:\Xpert's Zone\Mission Airways\Airways\Airways\MainPages\Login.aspx.cs:line 31
+Date :
+12-02-2018 15:09:03Source :mscorlib<br/>
+
+
+-----------------------------------------------------------------------------
+
+Message :Thread was being aborted.<br/>
+
+StackTrace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Airways.Login.Login_button_Click(Object sender, EventArgs e) in H:\Xpert's Zone\Mission Airways\Airways\Airways\MainPages\Login.aspx.cs:line 31
+Date :
+12-02-2018 16:09:09Source :mscorlib<br/>
+
+
+-----------------------------------------------------------------------------
+
+Message :Thread was being aborted.<br/>
+StackTrace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Airways.Search.Book_Button_Click(Object sender, EventArgs e) in H:\Xpert's Zone\Mission Airways\Airways\Airways\MainPages\Search.aspx.cs:line 223
+Date :
+12-02-2018 16:10:53Source :mscorlib<br/>
+
+
+-----------------------------------------------------------------------------
+
+Message :Thread was being aborted.<br/>
+StackTrace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Airways.Search.Book_Button_Click(Object sender, EventArgs e) in H:\Xpert's Zone\Mission Airways\Airways\Airways\MainPages\Search.aspx.cs:line 223
+Date :
+12-02-2018 16:12:15Source :mscorlib<br/>
+
+
+-----------------------------------------------------------------------------
+
+Message :Thread was being aborted.<br/>
+
+StackTrace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Airways.Login.Login_button_Click(Object sender, EventArgs e) in H:\Xpert's Zone\Mission Airways\Airways\Airways\MainPages\Login.aspx.cs:line 31
+Date :
+12-02-2018 16:13:26Source :mscorlib<br/>
+
+
+-----------------------------------------------------------------------------
+
+Message :Thread was being aborted.<br/>
+
+StackTrace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Airways.Login.Login_button_Click(Object sender, EventArgs e) in H:\Xpert's Zone\Mission Airways\Airways\Airways\MainPages\Login.aspx.cs:line 31
+Date :
+12-02-2018 16:15:52Source :mscorlib<br/>
+
+
+-----------------------------------------------------------------------------
+
+Message :Thread was being aborted.<br/>
+
+StackTrace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Airways.Login.Login_button_Click(Object sender, EventArgs e) in H:\Xpert's Zone\Mission Airways\Airways\Airways\MainPages\Login.aspx.cs:line 31
+Date :
+12-02-2018 16:26:22Source :mscorlib<br/>
+
+
+-----------------------------------------------------------------------------
+
+Message :Thread was being aborted.<br/>
+StackTrace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Airways.Search.Book_Button_Click(Object sender, EventArgs e) in H:\Xpert's Zone\Mission Airways\Airways\Airways\MainPages\Search.aspx.cs:line 223
+Date :
+12-02-2018 16:28:47Source :mscorlib<br/>
+
+
+-----------------------------------------------------------------------------
+
+Message :Object cannot be cast from DBNull to other types.<br/>
+StackTrace :   at BusinessLogicLayer.BACancel.BusinessCancel(Double Booking_ID, Int32& Status, Int32& Refund_Amount, Int32 CusID) in H:\Xpert's Zone\Mission Airways\Airways\BusinessLL\BACancel.cs:line 22
+   at Airways.Cancel.Button1_Click(Object sender, EventArgs e) in H:\Xpert's Zone\Mission Airways\Airways\Airways\MainPages\Cancel.aspx.cs:line 34
+Date :
+12-02-2018 16:29:29Source :BusinessLL<br/>
+
+
+-----------------------------------------------------------------------------
+
+Message :Thread was being aborted.<br/>
+StackTrace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Airways.Search.Book_Button_Click(Object sender, EventArgs e) in H:\Xpert's Zone\Mission Airways\Airways\Airways\MainPages\Search.aspx.cs:line 223
+Date :
+12-02-2018 16:33:06Source :mscorlib<br/>
+
+
+-----------------------------------------------------------------------------
+
+Message :Thread was being aborted.<br/>
+
+StackTrace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Airways.Login.Login_button_Click(Object sender, EventArgs e) in H:\Xpert's Zone\Mission Airways\Airways\Airways\MainPages\Login.aspx.cs:line 31
+Date :
+12-02-2018 16:36:16Source :mscorlib<br/>
+
+
+-----------------------------------------------------------------------------
+
